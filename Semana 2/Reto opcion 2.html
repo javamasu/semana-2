@@ -5,34 +5,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Retos-css.css">
 </head>
-<body>
+<body class="recuadro">
     <header>
         <h2 class="titule">Sing up</h2>
     </header>
     <main>
-        <form>
+        <form class="form">
             <label class="subtitule" for="names">First name</label>
             <br>
             <input type="text" id="names"
             required minlength="7">
             <br>
-            <label class="subtitule"">Age</label>
+            <label class="subtitule" for"age">Age</label>
             <br>
-            <input type="number" required maxlength="120">
+            <input type="number" id="age" required min="1" max="120">
             <br>
-            <label class="subtitule">Income</label>
+            <label class="subtitule" for"income">Income</label>
             <br>
-            <input type="text" required minlength="6">
+            <input type="text" id="income" required>
             <br>
-            <label class="subtitule">More info</label>
+            <label class="subtitule" for"moreinfo">More info</label>
             <br>
-            <input type="text" required minlength="6">
+            <input type="text" id="moreinfo" required minlength="6">
             <br>
             <label class="subtitule">Gender</label>
             <br>
-            <input type="radio" required name="gender" value="M">Male
-            <input type="radio" required name="gender" value="F">Female
-            <input type="radio" required name="gender" value="T">Trans
+            <input type="radio" required name="gender" id="01" value="M"><label for="01">Male</label>
+            <input type="radio" required name="gender" id="02" value="F"><label for="02">Female</label>
+            <input type="radio" required name="gender" id="03" value="T"><label for="03">Trans</label>
             <br>
             <label class="subtitule">Plan</label>
             <br>
@@ -46,7 +46,7 @@
             <br>
             <input type="checkbox" value="subscribe">Subscribe to Newsletter
             <br>
-            <input class="button" type"submit" id="update"
+            <input class="button" type="submit"
             value="Update">
         </form>
     </main>
