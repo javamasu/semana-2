@@ -1,0 +1,17 @@
+.titule{
+    font-weight: bold 
+}
+h3{
+    color: gray;
+}
+#siguiente{
+    color: white;
+    background-color: green;
+}
+.button{
+    color: white;
+    background: blueviolet;
+}
+.subtitule{
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Retos-css.css">
+</head>
+<body>
+    <header>
+        <h2 class="titule">Sing up</h2>
+    </header>
+    <main>
+        <form>
+            <label class="subtitule" for="names">First name</label>
+            <br>
+            <input type="text" id="names"
+            required minlength="7">
+            <br>
+            <label class="subtitule"">Age</label>
+            <br>
+            <input type="number" required maxlength="120">
+            <br>
+            <label class="subtitule">Income</label>
+            <br>
+            <input type="text" required minlength="6">
+            <br>
+            <label class="subtitule">More info</label>
+            <br>
+            <input type="text" required minlength="6">
+            <br>
+            <label class="subtitule">Gender</label>
+            <br>
+            <input type="radio" required name="gender" value="M">Male
+            <input type="radio" required name="gender" value="F">Female
+            <input type="radio" required name="gender" value="T">Trans
+            <br>
+            <label class="subtitule">Plan</label>
+            <br>
+            <select>
+                <option selected disabled>Select plan</option>
+                <option value="LA">Los Angeles</option>
+                <option value="NY">New Yersey</option>
+                <option value="C">Chicago</option>
+                <option value="V">Vermont</option>
+            </select>
+            <br>
+            <input type="checkbox" value="subscribe">Subscribe to Newsletter
+            <br>
+            <input class="button" type"submit" id="update"
+            value="Update">
+        </form>
+    </main>
+    
+</body>
+</html>
