@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    /* border: 1px solid red; */
+    margin: 30px;
+}
+
+.contenedor .servicios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_servicios{
+    background-color: #000;
+    color: steelblue;
+    padding: 50px;
+    /* border: 1px solid white; */
+    display: flex;          /* afectan a los hijos */
+    flex-direction: column; /* afectan a los hijos */
+    align-items: center;    /* afectan a los hijos */
+}
+
+.contenedor .opciones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightblue;
+    /* border: 1px solid red; */
+}
+
+.card_opciones{
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
